@@ -46,7 +46,7 @@
 }
 
 .side-tool-bar-container[data-v-e0812a25] {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
 
@@ -167,7 +167,7 @@
 }
 
 .p-buttongroup-vertical[data-v-94481f39] {
-  display: flex;
+  display: none;
   flex-direction: column;
   border-radius: var(--p-button-border-radius);
   overflow: hidden;
@@ -266,6 +266,7 @@
 
 .comfyui-menu[data-v-d84a704d] {
   width: 100vw;
+  display: none;
   background: var(--comfy-menu-bg);
   color: var(--fg-color);
   font-family: Arial, Helvetica, sans-serif;
